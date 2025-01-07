@@ -37,9 +37,9 @@ modules:
       - type: file
         only-arches:
           - x86_64
-        url: https://github.com/fafarunner/fafarunner/releases/download/v1.0.7%2B372/fafarunner_1.0.7%2B372_linux_amd64.deb
+        url: https://github.com/fafarunner/fafarunner/releases/download/v1.0.7%2B373/fafarunner_1.0.7%2B373_linux_amd64.deb
         dest-filename: fafarunner.deb
-        sha256: 4625b058d9ac2c6356779bfdd0fc6f648f8ef4c6ca458d633f7ca7fda748401a
+        sha256: e5933a002a2b87a6735a66034f4cb0558ba187ccb9d660c189987940131f3e89
         x-checker-data:
           type: json
           url: https://api.github.com/repos/fafarunner/fafarunner/releases/latest
@@ -50,9 +50,9 @@ modules:
       - type: file
         only-arches:
           - aarch64
-        url: https://github.com/fafarunner/fafarunner/releases/download/v1.0.7%2B372/fafarunner_1.0.7%2B372_linux_aarch64.deb
+        url: https://github.com/fafarunner/fafarunner/releases/download/v1.0.7%2B373/fafarunner_1.0.7%2B373_linux_aarch64.deb
         dest-filename: fafarunner.deb
-        sha256: 5cf199780f750514354344bd18c3595c8e7bbc712c8aa8468d38c382cbd06bfe
+        sha256: a64d5341b374317599cf734a7f8df2c10e9ad5facb4923b28bf76c0abf1ef2c6
         x-checker-data:
           type: json
           url: https://api.github.com/repos/fafarunner/fafarunner/releases/latest
