@@ -18,6 +18,7 @@ finish-args:
   - --share=network
 
 modules:
+  - shared-modules/libayatana-appindicator/libayatana-appindicator-gtk3.json
   - name: fafarunner
     buildsystem: simple
     build-commands:
