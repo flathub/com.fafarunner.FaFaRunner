@@ -38,9 +38,9 @@ modules:
       - type: file
         only-arches:
           - x86_64
-        url: https://github.com/FaFaRunner/FaFaRunner/releases/download/v2.5.0%2B380/fafarunner-2.5.0.380-linux-amd64.deb
+        url: https://github.com/FaFaRunner/FaFaRunner/releases/download/v2.5.1%2B381/fafarunner-2.5.1.381-linux-amd64.deb
         dest-filename: fafarunner.deb
-        sha256: ffec70802b11dba0ead19779ca1da4b2cb7da5cb6f87ee97acef8a838ea17f18
+        sha256: 8f23c5e470c608f0acb50a406d8b3c0fca60adcc6619ebfc3190346bc3ed9bb8
         x-checker-data:
           type: json
           url: https://api.github.com/repos/fafarunner/fafarunner/releases/latest
@@ -51,9 +51,9 @@ modules:
       - type: file
         only-arches:
           - aarch64
-        url: https://github.com/FaFaRunner/FaFaRunner/releases/download/v2.5.0%2B380/fafarunner-2.5.0.380-linux-aarch64.deb
+        url: https://github.com/FaFaRunner/FaFaRunner/releases/download/v2.5.1%2B381/fafarunner-2.5.1.381-linux-aarch64.deb
         dest-filename: fafarunner.deb
-        sha256: 35dffac315a42c21d05dcaadc744038b756e79a66fdcfa4c53374f2a1a4a0990
+        sha256: e00f9c76acc7005019fecf451f01ec593eb147eb01c80479dbb1551421da01b5
         x-checker-data:
           type: json
           url: https://api.github.com/repos/fafarunner/fafarunner/releases/latest
