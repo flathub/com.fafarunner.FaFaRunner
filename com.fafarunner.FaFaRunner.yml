@@ -38,9 +38,9 @@ modules:
       - type: file
         only-arches:
           - x86_64
-        url: https://github.com/fafarunner/fafarunner/releases/download/v3.1.0.393/fafarunner-3.1.0.393-linux-amd64.deb
+        url: https://github.com/fafarunner/fafarunner/releases/download/v3.1.1.394/fafarunner-3.1.1.394-linux-amd64.deb
         dest-filename: fafarunner.deb
-        sha256: 820cf2188223ec49d911c530249f8854a5fc8be581ff639d95df6f2dbe394a56
+        sha256: bbd7a79fdfd43e4285307cd0cd691af6b136c85bf011dde5689866c76e8fc1de
         x-checker-data:
           type: json
           url: https://api.github.com/repos/fafarunner/fafarunner/releases/latest
@@ -51,9 +51,9 @@ modules:
       - type: file
         only-arches:
           - aarch64
-        url: https://github.com/fafarunner/fafarunner/releases/download/v3.1.0.393/fafarunner-3.1.0.393-linux-aarch64.deb
+        url: https://github.com/fafarunner/fafarunner/releases/download/v3.1.1.394/fafarunner-3.1.1.394-linux-aarch64.deb
         dest-filename: fafarunner.deb
-        sha256: 08140ab7188d7acbd60a5a58ea3b4b8087f2196e8877f8070c8a235923594f65
+        sha256: 4a909e62799cb2f0bdde2dc275203f70bd72b12b238f0e8128425876f35b95ad
         x-checker-data:
           type: json
           url: https://api.github.com/repos/fafarunner/fafarunner/releases/latest
