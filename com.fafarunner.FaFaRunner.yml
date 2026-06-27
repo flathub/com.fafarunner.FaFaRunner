@@ -23,8 +23,8 @@ modules:
     buildsystem: simple
     build-commands:
       - bsdtar -Oxf fafarunner.deb data.tar.zst | bsdtar -xf -
-      - install -Dm755 usr/share/fafarunner/fafarunner /app/bin/fafarunner
-      - cp -r usr/share/fafarunner/data usr/share/fafarunner/lib /app/bin/
+      - install -Dm755 opt/fafarunner/fafarunner /app/bin/fafarunner
+      - cp -r opt/fafarunner/data opt/fafarunner/lib /app/bin/
 
       - desktop-file-edit --remove-key=Version --set-key=Terminal --set-value='false'
         --set-icon='com.fafarunner.FaFaRunner' "usr/share/applications/fafarunner.desktop"
