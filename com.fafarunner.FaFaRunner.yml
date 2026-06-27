@@ -23,8 +23,8 @@ modules:
     buildsystem: simple
     build-commands:
       - bsdtar -Oxf fafarunner.deb data.tar.zst | bsdtar -xf -
-      - install -Dm755 usr/share/fafarunner/fafarunner /app/bin/fafarunner
-      - cp -r usr/share/fafarunner/data usr/share/fafarunner/lib /app/bin/
+      - install -Dm755 opt/fafarunner/fafarunner /app/bin/fafarunner
+      - cp -r opt/fafarunner/data opt/fafarunner/lib /app/bin/
 
       - desktop-file-edit --remove-key=Version --set-key=Terminal --set-value='false'
         --set-icon='com.fafarunner.FaFaRunner' "usr/share/applications/fafarunner.desktop"
@@ -38,9 +38,9 @@ modules:
       - type: file
         only-arches:
           - x86_64
-        url: https://github.com/fafarunner/fafarunner/releases/download/v3.1.1.394/fafarunner-3.1.1.394-linux-amd64.deb
+        url: https://github.com/fafarunner/fafarunner/releases/download/v3.2.0.395/fafarunner-3.2.0.395-linux-amd64.deb
         dest-filename: fafarunner.deb
-        sha256: bbd7a79fdfd43e4285307cd0cd691af6b136c85bf011dde5689866c76e8fc1de
+        sha256: dd203aee6a97d4bf627890fb92dd884c753a1f5b3b2bd9b5a5f5ce6b969729c4
         x-checker-data:
           type: json
           url: https://api.github.com/repos/fafarunner/fafarunner/releases/latest
@@ -51,9 +51,9 @@ modules:
       - type: file
         only-arches:
           - aarch64
-        url: https://github.com/fafarunner/fafarunner/releases/download/v3.1.1.394/fafarunner-3.1.1.394-linux-aarch64.deb
+        url: https://github.com/fafarunner/fafarunner/releases/download/v3.2.0.395/fafarunner-3.2.0.395-linux-aarch64.deb
         dest-filename: fafarunner.deb
-        sha256: 4a909e62799cb2f0bdde2dc275203f70bd72b12b238f0e8128425876f35b95ad
+        sha256: d2d147bf341569fd9ef51fb94d48b9f776d45d9aa0d2017f3524bb6319508519
         x-checker-data:
           type: json
           url: https://api.github.com/repos/fafarunner/fafarunner/releases/latest
